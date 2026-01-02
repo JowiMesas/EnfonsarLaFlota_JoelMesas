@@ -115,7 +115,7 @@ int main() {
 }
 char llegir_opcio() {
     char opcio;
-    scanf(" %c", opcio);
+    scanf(" %c", &opcio);
     return toupper(opcio);
 }
 void presentar_joc() {
